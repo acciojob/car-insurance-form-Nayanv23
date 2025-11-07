@@ -15,13 +15,13 @@
 	<input type="text" id="name" required>
 	<label for="email">Email</lable>
 	<input type="email" id="email" required>
-	<fieldset required name="gender">
-		<legend >Gender</legend>
+	<fieldset>
+		<legend>Gender</legend>
 	<label>Male
-	<input type="radio" required value="male">
+	<input type="radio" required value="male" name="gender" required >
 		</label>
 	<label >Female
-	<input type="radio" required value="female">
+	<input type="radio" required value="female" name="gender" required >
 		</label>
 	</fieldset>
 	<label for="cars">Car Brands
@@ -33,8 +33,8 @@
 	</label>
 	<label for="carage">Car Age</label>
 	<input type="number" id="carage" required>
-	<label for="dob">Date of Purchase (dop)</label>
-	<input type="date" id="dob" required>
+	<label for="dop">Date of Purchase (dop)</label>
+	<input type="date" id="dop" required>
 	<label for="password">Password</lable>
 	<input type="password" id="password" required>
 	<button type="submit">Submit</button>
